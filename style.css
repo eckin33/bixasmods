@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap);
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ;
+    
+
+}
+
+.textos1{
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+
+
+p.p1{
+    font-size: 1em;
+    margin-bottom: 2em;
+    background-color: rgba(255, 255, 255, 0.905);
+    width: 67vw;
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    text-align: justify;
+    text-shadow:  2px 2px 2px rgba(0, 0, 0, 0.245);
+}
+
+h1{
+    background-color: black;
+    color: rgb(160, 28, 28);
+    text-align: center;
+    padding: 30px;
+    font-family: passion one;
+    font-size: 2.3em;
+    text-shadow: 2px 1px 1px rgba(61, 149, 146, 0.374);
+}
+
+
+h2{
+    color: rgba(162, 19, 19, 0.632);
+    font-family: passion one;
+    font-size: 4.5em;
+    padding-top: 440px;
+    padding-left: 90px;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.218);
+
+}
+
+
+
+.imagens{
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size:cover ;
+    background-image: url(Fora-telhado-Photoroom.png);
+    background-position: center center ;
+
+
+}
+
+
+.imagens2{
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size:cover ;
+    background-image: url(imagens/Dentro-geral-Photoroom-.png);
+    background-position: center center ;
+
+
+}
+
+.imagens3{
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size:cover ;
+    background-image: url(imagens/Stairs-Photoroom.png);
+    background-position: center center ;
+
+
+}
+
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: salmon;
+    font-family: passion one;
+    text-align: center;
+    padding: 10px;
+
+}
+
+div#planos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+
+
+}
+
+#tpreços{
+    text-align: center;
+    margin-bottom: 18px;
+    padding: 10px 10px 10px 10px;
+    font-size: 5em;
+}
+
+div#plano1, #plano2, #plano3 {
+    background-color: rgb(42, 11, 71);
+    width: 300px;
+    height: 500px;
+    padding: 14px;
+    margin: 10px;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    margin: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(73, 71, 71, 0.816);
+    transition: transform .4s ease;
+}
+
+table, tr, td{
+    border: 2px black solid;
+    width: 250px;
+    text-align: center;
+    height: 50px;
+    background-color: rgba(169, 235, 210, 0.163);
+
+}
+th{
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+thead{
+    
+    border: 2px solid black;
+}
+
+table{
+    height: 300px;
+    margin: auto;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    font-size: 1.7em;
+    text-shadow: 2px 2px 2px rgba(97, 92, 91, 0.51);
+}
+
+.quero-esse{
+    width: 200px;
+    font-size: 1.1em;
+    font-family: passion one;
+    background-color: rgba(125, 249, 88, 0.577);
+    border-radius: 15px;
+    height: 50px;
+    transition: transform .4s;
+
+}
+
+.quero-esse:hover{  
+    transform: scale(1.2);
+
+
+}
+
+#plano3:hover{
+    transform: scale(1.2);
+
+}
+
+#plano2:hover{
+    transform: scale(1.2);
+
+}
+#plano1:hover{
+    transform: scale(1.2);
+
+}
+
+#constr{
+    background-color: black;
+    text-align: center;
+    color: brown;
+}
+
+@media screen and (max-width: 768px) {
+    
+    div#planos{
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        
+        align-items: center;
+
+    }
+
+    #plano1, #plano2, #plano3{
+        text-align: center;
+        margin-bottom: 60px;
+
+    }
+
+
+    #plano1:hover{
+        transform: scale(1.05);
+
+    }
+
+    #plano2:hover{
+        transform: scale(1.05);
+
+    }
+    #plano3:hover{
+        transform: scale(1.05);
+
+    }
+   
+    div.textos1{
+        margin: auto;
+
+    }
+
+    p.p1{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    h2{
+        font-size: 2.3em;
+
+    }
+    .imagens{
+        width: 100%;
+        height: 600px;
+        background-attachment: fixed;
+        background-size:cover ;
+        background-image: url(imagens/Fora-casa-Photoroom.png);
+        background-position: center center ;
+    
+    
+    }
+    
+    .imagens2{
+        width: 100%;
+        height: 600px;
+        background-attachment: fixed;
+        background-size:cover ;
+        background-image: url(imagens/Quarto-Photoroom.png);
+        background-position: center center ;
+    
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
