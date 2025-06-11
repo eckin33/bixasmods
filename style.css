@@ -321,7 +321,10 @@ h3{
         background-image: url(imagens/Quarto-Photoroom.png);
         background-position: center center ;
     }
-    
+    .t1dia{
+        width: 100%;
+        padding: 10px;
+    }
 
 
 
